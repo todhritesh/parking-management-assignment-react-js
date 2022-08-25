@@ -14,7 +14,7 @@ function Welcome() {
                     </h4>
                     <button onClick={()=>navigate("/add-vehicle")} className="btn btn-outline-success w-25 mt-4 fw-bold">Get Started</button>
                 </div>
-                <div className="col-lg-5 d-flex justify-content-end">
+                <div className="col-lg-5 d-flex justify-content-end  mt-5  mt-md-0">
                     <img className='w-100' src={require("../../images/car2.png")} alt="" />
                 </div>
             </div>
