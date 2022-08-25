@@ -27,7 +27,6 @@ function ViewVehicle() {
     <div style={{width:"100vw",height:"100vh"}} className='' >
     <div className="row mx-auto ">
       <div className="mt-5"></div>
-      <div className="col-lg-8 mx-auto table-responsive">
       <div className="mt-5"></div>
         <div className="card border-success border-2">
           <div className="card-body">
@@ -35,6 +34,7 @@ function ViewVehicle() {
             <h6>Total Vehicle checked out : {parkings.filter(item=>item.checkOut!=="").length}</h6>
           </div>
         </div>
+      <div className="col-lg-8 mx-auto table-responsive">
       <div className="mt-5"></div>
         <table class="table">
           <thead>
